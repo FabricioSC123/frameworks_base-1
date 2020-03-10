@@ -37,4 +37,7 @@
 
     <bool name="qs_tile_vertical_layout">true</bool>
 
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false"></string>
+
 </resources>
