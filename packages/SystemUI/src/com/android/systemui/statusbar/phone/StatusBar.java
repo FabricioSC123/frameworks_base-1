@@ -3789,6 +3789,7 @@ public class StatusBar extends SystemUI implements DemoMode,
             mStatusBarStateController.setState(StatusBarState.KEYGUARD);
         }
         updatePanelExpansionForKeyguard();
+        mNotificationPanelViewController.updateNotificationTranslucency();
     }
 
     private void updatePanelExpansionForKeyguard() {
@@ -4198,6 +4199,10 @@ public class StatusBar extends SystemUI implements DemoMode,
 
     public VisualizerView getLsVisualizer() {
         return mVisualizerView;
+    }
+
+    public PulseController getPulseController() {
+        return mPulseController;
     }
 
     @Override
