@@ -35,4 +35,6 @@
     <!-- Udfps vendor code -->
     <integer name="config_udfps_vendor_code">22</integer>
 
+    <bool name="qs_tile_vertical_layout">true</bool>
+
 </resources>
