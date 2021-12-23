@@ -423,7 +423,7 @@ open class LandscapeBatteryDrawable(private val context: Context, frameColor: In
         perimeterPath.computeBounds(RectF(), true)
 
         val errorPathString = context.resources.getString(
-                com.android.internal.R.string.config_batterymeterLandErrorPerimeterPath)
+                com.android.internal.R.string.config_batterymeterErrorPerimeterPath)
         errorPerimeterPath.set(PathParser.createPathFromPathData(errorPathString))
         errorPerimeterPath.computeBounds(RectF(), true)
 
