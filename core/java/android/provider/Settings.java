@@ -6555,6 +6555,12 @@ public final class Settings {
         public static final String QS_FOOTER_SHOW_POWER_MENU = "qs_footer_show_power_menu";
 
         /**
+         * Whether footer #Xtended text shows
+         * @hide
+         */
+        public static final String OMNI_FOOTER_TEXT_SHOW = "omni_footer_text_show";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
@@ -6695,6 +6701,7 @@ public final class Settings {
             PRIVATE_SETTINGS.add(QS_SHOW_BATTERY_PERCENT);
             PRIVATE_SETTINGS.add(VOLUME_DIALOG_TIMEOUT);
             PRIVATE_SETTINGS.add(VOLTE_ICON_STYLE);
+            PRIVATE_SETTINGS.add(OMNI_FOOTER_TEXT_SHOW);
         }
 
         /**
