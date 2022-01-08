@@ -157,7 +157,7 @@ public class QSFooterView extends FrameLayout implements TunerService.Tunable {
                 v.setVisibility(View.VISIBLE);
             }
         } else {
-            v.setVisibility(View.GONE);
+            v.setVisibility(View.INVISIBLE);
         }
     }
 
