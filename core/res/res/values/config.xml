@@ -2879,7 +2879,7 @@
          recents component. When using a different default launcher, change this appropriately or
          use the default systemui implementation: com.android.systemui/.recents.RecentsActivity -->
     <string name="config_recentsComponentName" translatable="false"
-            >com.android.launcher3/com.android.quickstep.RecentsActivity</string>
+            >capp.lawnchair/com.android.quickstep.RecentsActivity</string>
 
     <!-- SystemUi service component -->
     <string name="config_systemUIServiceComponent" translatable="false"
